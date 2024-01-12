@@ -13,15 +13,15 @@
     "start:standalone": "STANDALONE=1 react-native webpack-start --port 8081"
   },
   "dependencies": {
-    "react": "17.0.2",
-    "react-native": "0.68.2"
+    "react": "18.0.0",
+    "react-native": "0.71.6"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
     "@babel/runtime": "^7.12.5",
     "@callstack/eslint-config": "^12.0.2",
     "@callstack/repack": "^3.3.0",
-    "@types/react-native": "^0.67.3",
+    "@types/react-native": "^0.71.6",
     "babel-loader": "^8.2.5",
     "eslint": "^8.18.0",
     "metro-react-native-babel-preset": "^0.67.0",
@@ -30,6 +30,6 @@
     "webpack": "^5.73.0"
   },
   "resolutions": {
-    "@types/react": "^17"
+    "@types/react": "^18"
   }
 }

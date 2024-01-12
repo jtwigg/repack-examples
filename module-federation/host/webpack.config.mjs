@@ -253,11 +253,11 @@ export default (env) => {
         shared: {
           react: {
             ...Repack.Federated.SHARED_REACT,
-            requiredVersion: '17.0.2',
+            requiredVersion: '18.0.0',
           },
           'react-native': {
             ...Repack.Federated.SHARED_REACT_NATIVE,
-            requiredVersion: '0.68.2',
+            requiredVersion: '0.71.6',
           },
         },
       }),

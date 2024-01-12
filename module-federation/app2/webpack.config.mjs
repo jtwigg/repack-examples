@@ -260,7 +260,7 @@ export default (env) => {
           'react-native': {
             ...Repack.Federated.SHARED_REACT_NATIVE,
             eager: STANDALONE, // to be figured out
-            requiredVersion: '0.68.2',
+            requiredVersion: '0.71.6',
           },
         },
       }),
